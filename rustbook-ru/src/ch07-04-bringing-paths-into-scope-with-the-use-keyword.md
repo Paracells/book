@@ -181,6 +181,7 @@ ignore --> главы 14.
 
 <!-- When updating the version of `rand` used, also update the version of
 `rand` used in these files so they all match:
+* ch01-01-installation.md
 * ch02-00-guessing-game-tutorial.md
 * ch14-03-cargo-workspaces.md
 -->
@@ -200,8 +201,8 @@ ignore --> главы 14.
 Затем, чтобы ввести определения `rand` в область видимости нашего пакета, мы
 добавили строку `use`, начинающуюся с имени крейта, `rand`, и перечислили
 элементы, которые хотели ввести в область видимости. Вспомните, что в [разделе
-«Генерация случайного числа»][rand]<!-- ignore --> главы 2 мы ввели трейт
-`Rng` в область видимости и вызвали функцию `rand::thread_rng`:
+«Генерация случайного числа»][rand]<!-- ignore --> главы 2 мы ввели элементы
+модуля `rand::prelude` в область видимости и вызвали функцию `rand::rng`:
 
 ```rust,ignore
 {{#rustdoc_include ../listings/ch02-guessing-game-tutorial/listing-02-03/src/main.rs:ch07-04}}

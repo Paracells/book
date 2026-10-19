@@ -79,7 +79,7 @@
 </Listing>
 
 Rust сообщает, что использовать `let...else` с неопровержимым шаблоном не
-имеет смысла:
+имеет смысла, потому что `else` никогда не будет достигнут:
 
 ```console
 {{#include ../listings/ch19-patterns-and-matching/listing-19-10/output.txt}}

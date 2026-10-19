@@ -170,10 +170,17 @@ $ rustup self uninstall
 (Позже мы подробно объясним, что такое `cargo` и что делает каждая
 из этих команд.)
 
+<!-- При обновлении версии `rand` также обновите версию `rand` в этих файлах:
+
+* ch02-00-guessing-game-tutorial.md
+* ch07-04-bringing-paths-into-scope-with-the-use-keyword.md
+* ch14-03-cargo-workspaces.md
+-->
+
 ```console
 $ cargo new get-dependencies
 $ cd get-dependencies
-$ cargo add rand@0.8.5 trpl@0.2.0
+$ cargo add rand@0.10.1 trpl@0.2.0
 ```
 
 Эти команды сохранят загруженные пакеты в кэше, поэтому позже их не придётся

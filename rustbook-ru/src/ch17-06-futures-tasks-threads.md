@@ -107,7 +107,7 @@ Rust-коде.
 обсудим, как идиомы Rust соотносятся с теми, которые могут быть знакомы вам из
 объектно-ориентированного программирования.
 
-[ch16]: http://localhost:3000/ch16-00-concurrency.html
+[ch16]: ch16-00-concurrency.html
 [combining-futures]: ch17-03-more-futures.html#building-our-own-async-abstractions
 [streams]: ch17-04-streams.html#composing-streams
 [ch21]: ch21-00-final-project-a-web-server.html
