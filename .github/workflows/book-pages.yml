@@ -49,6 +49,9 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
+    # Ветка должна быть разрешена в Settings → Environments → github-pages →
+    # Deployment branches and tags. Иначе GitHub отклонит деплой с ошибкой
+    # "Branch ... is not allowed to deploy to github-pages".
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
