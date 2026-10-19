@@ -1,3 +1,6 @@
+### Сборка mdBook ###
+/rustbook-ru/book/
+
 ### IDE ###
 .idea
 .vscode

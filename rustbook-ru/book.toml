@@ -4,5 +4,5 @@ authors = ["Стив Клабник", "Кэрол Николс", "и други�
 language = "ru-RU"
 
 [output.html]
-additional-css = ["ferris.css", "theme/2018-edition.css"]
-additional-js = ["ferris.js"]
+additional-css = ["ferris.css", "theme/2018-edition.css", "whats-new.css"]
+additional-js = ["ferris.js", "whats-new.js"]

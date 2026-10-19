@@ -1,0 +1,28 @@
+/* Кнопка «Что нового» в шапке книги. */
+
+#mdbook-menu-bar .right-buttons .whats-new-link,
+#menu-bar .right-buttons .whats-new-link {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    padding: 0 0.75em;
+    color: var(--fg);
+    font-size: 0.9em;
+    text-decoration: none;
+    white-space: nowrap;
+    border-left: 1px solid var(--table-border-color, rgba(128, 128, 128, 0.35));
+}
+
+#mdbook-menu-bar .right-buttons .whats-new-link:hover,
+#menu-bar .right-buttons .whats-new-link:hover {
+    color: var(--links);
+    background-color: var(--quote-bg);
+}
+
+@media only screen and (max-width: 1080px) {
+    #mdbook-menu-bar .right-buttons .whats-new-link,
+    #menu-bar .right-buttons .whats-new-link {
+        display: none;
+    }
+}

@@ -132,3 +132,4 @@
   - [E — Редакции Rust](appendix-05-editions.md)
   - [F — Переводы книги](appendix-06-translation.md)
   - [G — Как создаётся Rust и «Nightly Rust»](appendix-07-nightly-rust.md)
+  - [H — Что нового в книге](appendix-08-whats-new.md)
